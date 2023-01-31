@@ -24,3 +24,4 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
         => rb.AddForce(new Vector3(movementX, 0.0f, movementY)*speed);
 }
+
